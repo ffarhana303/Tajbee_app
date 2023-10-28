@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background=""
+    >
+
+
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="Addone"
+        android:backgroundTint="#FBA9D5"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="Subone"
+        android:gravity="center"
+        android:backgroundTint="#a9d5fb"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:gravity="center"
+        android:backgroundTint="#d5fba9"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
